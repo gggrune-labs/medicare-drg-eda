@@ -1,0 +1,20 @@
+# Raw and intermediate data (download from CMS, see data/README.md)
+data/*.csv
+data/*.parquet
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
